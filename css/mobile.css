@@ -1,0 +1,50 @@
+header h1 {
+    font-size: 3.6rem;
+}
+
+header,
+form {
+    min-height: 15vh;
+}
+
+form input, 
+form button {
+    padding: .5rem;
+    font-size: 1.8rem;
+}
+
+.todo {
+    font-size: 1.6rem;
+}
+
+.trash-btn, 
+.completed-btn {
+    font-size: 1.2rem;
+}
+
+select {
+    font-size: 1.4rem;
+}
+
+.select::after {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 3.2rem;
+    }
+    form {
+        flex-wrap: wrap;
+    }
+    .todo {
+        font-size: 1.4rem;
+    }
+    .todo-list {
+        min-width: 80%;
+    }
+    .trash-btn, 
+    .completed-btn {
+        font-size: 1rem;
+    }
+}

@@ -13,11 +13,8 @@ body {
     min-height: 100vh;
 }
 
-header {
-    font-size: 3.2rem;
-}
-
 header h1 {
+    font-size: 4.8rem;
     font-weight: 500;
 }
 
@@ -55,7 +52,7 @@ form button:hover {
 }
 
 .todo-list {
-    min-width: 30%;
+    min-width: 50%;
     list-style: none;
 }
 
@@ -75,7 +72,8 @@ form button:hover {
     padding-left: 1.2rem;
 }
 
-.trash-btn, .completed-btn {
+.trash-btn, 
+.completed-btn {
     padding: 1rem;
     background-color: #ff6f47;
     color: white;
